@@ -1,9 +1,9 @@
 const images = [
-  "Assets/IMG/Caroussel1.jpg",
-  "Assets/IMG/Caroussel2.jpg",
-  "Assets/IMG/Caroussel3.jpg",
-  "Assets/IMG/Caroussel4.jpg",
-  "Assets/IMG/Caroussel5.jpg"
+  "/Assets/IMG/Caroussel1.jpg",
+  "/Assets/IMG/Caroussel2.jpg",
+  "/Assets/IMG/Caroussel3.jpg",
+  "/Assets/IMG/Caroussel4.jpg",
+  "/Assets/IMG/Caroussel5.jpg"
 ];
 
 const texts = [
