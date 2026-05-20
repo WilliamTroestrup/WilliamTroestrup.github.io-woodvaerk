@@ -1,6 +1,6 @@
 console.log("navbar loaded");
 
-fetch('/assets/components/navbar.html')
+fetch('Assets/components/navbar.html')
   .then(r => {
     if (!r.ok) throw new Error("Navbar not found");
     return r.text();
