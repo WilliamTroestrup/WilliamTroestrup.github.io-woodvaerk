@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     background-color: #574e48;
     overflow: hidden;
+    color: #ffffffb6; 
 }
 
 .content {
@@ -268,4 +269,21 @@ a.social-icon:active {
   text-decoration: none !important;
   border-bottom: none !important;
   background: transparent !important;
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .nav-wrapper {
+    padding: 10px;
+  }
+
 }
