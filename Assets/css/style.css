@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #574e48;
-    overflow: hidden;
+    overflow-x: hidden;
     color: #ffffffb6; 
 }
 
@@ -271,3 +271,93 @@ a.social-icon:active {
   background: transparent !important;
 }
 
+/* =========================
+   MOBILE RESPONSIVE FIXES
+   ========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-logo {
+    left: 20px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 52px;
+    text-align: center;
+  }
+
+  /* CAROUSEL LAYOUT */
+  .carousel-component {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .carousel-display img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .carousel-slider {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  /* GALLERY */
+  .gallery {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .product-card img {
+    height: 220px;
+  }
+
+  /* HOMIES SECTION */
+  .homies-text {
+    font-size: 22px;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .homies {
+    width: 90%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  /* SOCIAL ICON */
+  .social-icon i {
+    font-size: 40px;
+  }
+}
